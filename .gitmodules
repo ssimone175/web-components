@@ -1,0 +1,12 @@
+[submodule "Components/Anfahrt"]
+	path = Components/Anfahrt
+	url = https://github.com/ssimone175/map-route.git
+[submodule "Component/Kalender"]
+	path = Component/Kalender
+	url = https://github.com/ssimone175/weather-forecast.git
+[submodule "Components/Wetter"]
+	path = Components/Wetter
+	url = https://github.com/ssimone175/weather-forecast.git
+[submodule "Components/Kalender"]
+	path = Components/Kalender
+	url = https://github.com/ssimone175/event-calendar.git
