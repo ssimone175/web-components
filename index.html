@@ -58,7 +58,9 @@
           </div>
           <div class="offset-md-1 col-md-6 mt-5 mt-md-0">
             <div class="card h-100 mh-200">
-              <event-calendar></event-calendar>
+              <event-calendar mode="day" eventJson="http://localhost:3030/events"></event-calendar>
+              <event-calendar mode="week" eventJson="http://localhost:3030/events"></event-calendar>
+              <event-calendar mode="month" eventJson="http://localhost:3030/events"></event-calendar>
             </div>
           </div>
         </div>
@@ -87,7 +89,7 @@
           <div class="card mh-500">
             <map-route
                     style="height:500px;width:100%;"
-                    destination="Invalidenstraße 17, Berlin"
+                    destination="Hochgrat Bayern"
                     origin="Hauerz"
                     apikey="om3n1r09-nhi9VtVkpc8mB6VbRghKiATYoeRxP-AjOc"
                     markerIcon="../map_icon.png"
