@@ -16,7 +16,7 @@
     />
     <link rel="apple-touch-icon" href="logo.png" />
     <title>Web Components</title>
-    <script type="module" src="Components/Kalender/Kalender.js"></script>
+    <script type="module" src="Components/Kalender/Calendar.js"></script>
     <script type="module" src="Components/Wetter/Wetter.js"></script>
     <script type="module" src="Components/Anfahrt/Anfahrt.js"></script>
   </head>
@@ -52,7 +52,7 @@
             <div class="row align-items-center">
                 <div class="col-md-5 offset-md-1 order-md-last">
                     <h2>Aktuelles Wetter</h2>
-                    <div>hier Komponenten einfügen</div>
+                    <div>Touren auf dem Hochgrat sollten an die Wetterverhältnisse angepasst werden</div>
                 </div>
                 <div class="col-md-6 mt-md-0 mt-5">
                     <div class="card h-100 mh-200">
@@ -62,7 +62,8 @@
                                 lon="-10.078583"
                                 apikey="751b6ffac26be0a1d11e0531a245bab0"
                                 units="metric"
-                                lang="de">
+                                lang="de"
+                                iconBase="https://web-components-bachelor.netlify.app/Components/Wetter/">
                         </weather-forecast>
                     </div>
                 </div>
@@ -73,7 +74,7 @@
               <div class="row align-items-center">
                   <div class="col-md-5 text-md-right">
                       <h2>Jede Menge spannender Events</h2>
-                      <div>hier Komponenten einfügen</div>
+                      <div>Diese Events finden in nächster Zeit auf dem Hochgrat statt</div>
                   </div>
                   <div class="offset-md-1 col-md-6 mt-5 mt-md-0">
                       <div class="card h-100 mh-200">
@@ -88,7 +89,7 @@
       <section id="anfahrt" class="container">
         <div class="col-md-10 mx-auto text-center">
           <h2>So finden Sie uns</h2>
-          <p>Einfach zu erreichen, mit guten Parkmöglichkeiten</p>
+          <p>Besuchen Sie uns im Allgäu</p>
         </div>
         <div class="col-md-8 mx-auto mt-5">
           <div class="card mh-500">

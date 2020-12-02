@@ -61,3 +61,18 @@ map-route{
   --button-bg: #c7d6c8;
   --button-hover-bg:#97b89a;
 }
+event-calendar{
+  --event-background: #97B89A;
+  --event-hover-background: #556B57;
+  --header-background: #556B57;
+  --btn:#556B57;
+  --btn-hover: #3b4a3c;
+  --today: red;
+  max-width:100%;
+  box-sizing: border-box;
+}
+weather-forecast{
+  --background: #f2f2f2;
+  --background-chosen: #dff0ff;
+  --background-deactived: #e6e6e6;
+}
