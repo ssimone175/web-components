@@ -72,7 +72,4 @@ event-calendar{
   box-sizing: border-box;
 }
 weather-forecast{
-  --background: #f2f2f2;
-  --background-chosen: #dff0ff;
-  --background-deactived: #e6e6e6;
 }
